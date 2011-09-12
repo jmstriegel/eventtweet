@@ -1,0 +1,30 @@
+A projection-friendly twitter feed, designed for displaying tweets during an event.
+
+Installation
+-------------
+1. Place all files in your web documents directory
+2. Edit /includes/config.inc with your server's path and url
+3. Set your hashtag and page title in /includes/config.inc
+
+Customization
+-------------
+1. Create a transparent PNG for your logo in /assets/images/logo.png
+2. Edit /assets/css/eventtweet.css to customize styles (optional)*
+3. Edit /templates/pages/index.inc and /templates/shared/header.inc to customize layout (optional)
+
+* This should display on a 1024x768 or larger projector. On a small display, you may need to tweak the font size of the overview h2 if your hashtag is extremely long.
+
+
+Use
+-------------
+- You can use View->Fullscreen in Chrome or Firefox for optimum display.
+- Tweets will display on the left column as they come in. The most recent tweet will update in the right column.
+- The presenter may click on any tweet to enter focus mode - the tweet will overtake the display. This is ideal for Q&A sessions.
+- Click on a focused tweet to return to stream mode.
+
+
+License
+-------------
+
+Unless otherwise noted, all files are Copyright (c) 2011 Jason M. Striegel (@jmstriegel) and are released for use under the MIT open source license. See MIT-LICENSE.txt for details.
+
