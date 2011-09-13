@@ -2,7 +2,7 @@
 
 <img id="logo" src="<?= $config[$config['env']]['base_path'] ?>/assets/images/logo.png" />
 <div id="overview">
-<h1><strong>Have a question?</strong> Ask it on Twitter:</h1>
+<h1><?= $config[$config['env']]['heading_text'] ?></h1>
 <h2><?= htmlspecialchars( $config[$config['env']]['twitter_search'] ) ?></h2>
 </div>
 

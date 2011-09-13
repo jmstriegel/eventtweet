@@ -9,6 +9,7 @@ ini_set('display_errors', '1');
 
 
 $config['production']['event_title'] = 'Event Tweet Display';
+$config['production']['heading_text'] = '<strong>Have a question?</strong> Ask it on Twitter:';
 $config['production']['twitter_search'] = '#eventtweet';
 
 
