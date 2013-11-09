@@ -1,3 +1,14 @@
+=================
+NOTE: The Twitter API changed and this app no longer works.
+
+I've created a newer, improved app called eventstream. It has support for Twitter and G+, and you can add pictures too, which is rad. 
+Check it out at: http://github.com/jmstriegel/eventstream
+=================
+
+
+
+
+
 A projection-friendly twitter feed, designed for displaying tweets during an event.
 
 Installation
